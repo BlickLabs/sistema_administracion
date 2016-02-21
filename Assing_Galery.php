@@ -24,9 +24,9 @@
             <h4>Galerias Disponibles</h4>
                 <select name="galery[]" multiple="multiple">
                     <?php
-                        $mysqli2 = mysqli_connect('localhost', 'root', '', 'sistem_galery');
+                        
                         $condition=activo;
-                        $sql = "SELECT * from galery WHERE status='".$condition."'";
+                        $sql = "SELECT id_galery,title_galery from galery WHERE status='".$condition."'";
                         $result = $mysqli2->query($sql);
                         if ($result->num_rows > 0) { 
                             $combobit = "";
