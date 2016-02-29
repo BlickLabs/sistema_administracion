@@ -25,6 +25,7 @@ if ($id!=null && empty($st) && empty($sc)) {
             'status' => $row['status'],
             'creation_date' => $row['creation_date'],
             'modification_date' => $row['modification_date'],
+            'images' => array(),
         );
     }
 
@@ -40,7 +41,7 @@ if ($id!=null && empty($st) && empty($sc)) {
             'short_description' => $sh_des_im,
             'long_description' => $row['long_description'],
         );
-        array_push($response['galery'], $partialImage);
+        array_push($response['galery']['images'], $partialImage);
     }
     $json2 = json_encode($response['galery']);
     echo $json2;
@@ -60,6 +61,7 @@ if ($id!=null && empty($st) && empty($sc)) {
             'status' => $row['status'],
             'creation_date' => $row['creation_date'],
             'modification_date' => $row['modification_date'],
+            'images' => array(),
         );
     }
 
@@ -74,7 +76,7 @@ if ($id!=null && empty($st) && empty($sc)) {
             'short_description' => $sh_des_im,
             'long_description' => $row['long_description'],
         );
-        array_push($response['galery'], $partialImage);
+        array_push($response['galery']['images'], $partialImage);
     }
     $json2 = json_encode($response['galery']);
     echo $json2;
@@ -95,6 +97,7 @@ if ($id!=null && empty($st) && empty($sc)) {
             'status' => $row['status'],
             'creation_date' => $row['creation_date'],
             'modification_date' => $row['modification_date'],
+            'images' => array(),
         );
     }
 
@@ -109,7 +112,7 @@ if ($id!=null && empty($st) && empty($sc)) {
             'short_description' => $sh_des_im,
             'long_description' => $row['long_description'],
         );
-        array_push($response['galery'], $partialImage);
+        array_push($response['galery']['images'], $partialImage);
     }
     $json2 = json_encode($response['galery']);
     echo $json2;
@@ -128,6 +131,7 @@ if ($id!=null && empty($st) && empty($sc)) {
             'status' => $row['status'],
             'creation_date' => $row['creation_date'],
             'modification_date' => $row['modification_date'],
+            'images' => array(),
         );
     }
 
@@ -142,7 +146,7 @@ if ($id!=null && empty($st) && empty($sc)) {
             'short_description' => $sh_des_im,
             'long_description' => $row['long_description'],
         );
-        array_push($response['galery'], $partialImage);
+        array_push($response['galery']['images'], $partialImage);
     }
     $json2 = json_encode($response['galery']);
     echo $json2;
@@ -161,6 +165,7 @@ if ($id!=null && empty($st) && empty($sc)) {
             'status' => $row['status'],
             'creation_date' => $row['creation_date'],
             'modification_date' => $row['modification_date'],
+            'images' => array(),
         );
     }
 
@@ -175,7 +180,7 @@ if ($id!=null && empty($st) && empty($sc)) {
             'short_description' => $sh_des_im,
             'long_description' => $row['long_description'],
         );
-        array_push($response['galery'], $partialImage);
+        array_push($response['galery']['images'], $partialImage);
     }
     $json2 = json_encode($response['galery']);
     echo $json2;
@@ -194,6 +199,7 @@ if ($id!=null && empty($st) && empty($sc)) {
             'status' => $row['status'],
             'creation_date' => $row['creation_date'],
             'modification_date' => $row['modification_date'],
+            'images' => array(),
         );
     }
 
@@ -208,7 +214,7 @@ if ($id!=null && empty($st) && empty($sc)) {
             'short_description' => $sh_des_im,
             'long_description' => $row['long_description'],
         );
-        array_push($response['galery'], $partialImage);
+        array_push($response['galery']['images'], $partialImage);
     }
     $json2 = json_encode($response['galery']);
     echo $json2;
@@ -228,6 +234,7 @@ if ($id!=null && empty($st) && empty($sc)) {
             'status' => $row['status'],
             'creation_date' => $row['creation_date'],
             'modification_date' => $row['modification_date'],
+            'images' => array(),
         );
     }
 
@@ -242,7 +249,7 @@ if ($id!=null && empty($st) && empty($sc)) {
             'short_description' => $sh_des_im,
             'long_description' => $row['long_description'],
         );
-        array_push($response['galery'], $partialImage);
+        array_push($response['galery']['images'], $partialImage);
     }
     $json2 = json_encode($response['galery']);
     echo $json2;
