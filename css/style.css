@@ -1241,3 +1241,8 @@ textarea.form-control { margin: 10px 0 }
 .btn.focus,
 .btn:active.focus,
 .btn.active.focus { outline: none !important }
+.image_estandar{
+    max-width: 100%;
+    min-width: 100px;
+    height: auto;
+}

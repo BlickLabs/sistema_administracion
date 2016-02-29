@@ -1,8 +1,9 @@
-<!DOCTYPE html>
 <?php
     include "api.php";
     $json = json_decode($json2, true); 
 ?>
+<!DOCTYPE html>
+
 <html lang="en">
   <head>
     <!-- Basic Page Needs
@@ -156,12 +157,12 @@
                     <div class="col-sm-4 col-md-4 col-lg-4 nopadding"> <!-- First Column -->
                         <div class="small-box">
                             <div class="hover-bg">
-                                <img src="<? echo $path; ?>" alt="img" class="img-responsive">
+                                <img src="<?php echo $path; ?>" alt="img" class="img-responsive img-standar">
                                 <div class="hover-text animated">
                                     <div class="ptitle">
-                                        <a href="image_description.php"><h2><? echo $tittle; ?></h2></a>
+                                        <a href="image_description.php"><h2><?php echo $tittle; ?></h2></a>
                                     </div>
-                                    <p class="excerpt"><? echo $short_description; ?> </p>
+                                    <p class="excerpt"><?php echo $short_description; ?> </p>
                                     <a href="image_description.php?image=<?php echo $RequestText;?>" class="btn btn-default read-more-btn"><span class="fa fa-bars"></span>Ver más</a>
                                 </div>
                             </div>
@@ -175,12 +176,12 @@
                 ?>
                         <div class="small-box">
                             <div class="hover-bg">
-                                <img src="<? echo $path; ?>" alt="img" class="img-responsive">
+                                <img src="<?php echo $path; ?>" alt="img" class="img-responsive img-standar">
                                 <div class="hover-text animated">
                                     <div class="ptitle">
-                                        <a href="image_description.php"><h2><? echo $tittle; ?></h2></a>
+                                        <a href="image_description.php"><h2><?php echo $tittle; ?></h2></a>
                                     </div>
-                                    <p class="excerpt"><? echo $short_description; ?> </p>
+                                    <p class="excerpt"><?php echo $short_description; ?> </p>
                                     <a href="image_description.php=<?php echo $RequestText;?>" class="btn btn-default read-more-btn"><span class="fa fa-bars"></span>Ver más</a>
                                 </div>
                             </div>
